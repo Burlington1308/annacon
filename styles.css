@@ -106,6 +106,19 @@ nav .nav-items .current {
     color: #fff
 }
 
+.overlay h1 {
+    font-size:  3rem;
+    padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.overlay p {
+    padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .cta-buttons {
     display: flex;
     width: 100%;
@@ -139,4 +152,21 @@ nav .nav-items .current {
 
 .quote:hover {
     background-color: rgb(121, 202, 223);
+}
+
+.services {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5vh;
+}
+
+.services h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
