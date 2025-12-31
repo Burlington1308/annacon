@@ -43,4 +43,8 @@
     .cta-buttons a {
         text-align: center;
     }
+
+    .service-cards .card {
+        flex-basis: 100%;
+    }
 }
