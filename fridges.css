@@ -1,0 +1,111 @@
+.hero {
+    background-image: url('images/Fridge.jpg');
+}
+
+.main, .brands {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5vh;
+}
+
+.main h1, .brands h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.main p, .brands p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.main ul {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.main ul li {
+    line-height: 1.6;
+}
+
+.floater {
+    width: 100%;
+    background: #333;
+    padding: 3vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-radius: 2vh;
+}
+
+.floater .floatcard {
+    flex-basis: 30%;
+    background: #e4e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1.25vh;
+}
+
+.floatcard img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatcard h3 {
+    text-align: center;
+}
+
+.floatcard p {
+    padding: .75rem
+}
+
+.brand-logos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-logos img {
+    width: 20%;
+}
+
+.about-cta {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about-cta a {
+    background-color: #f50505;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.about-cta a:hover {
+    background-color: #ee2d2d;
+}
+
+
+@media(max-width: 600px) {
+    .floater .floatcard {
+        flex-basis: 100%;
+    }
+}
