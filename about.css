@@ -24,8 +24,30 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 .main ul li {
     line-height: 1.6;
+}
+
+.about-cta {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main a {
+    background-color: #f50505;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main a:hover {
+    background-color: #ee2d2d;
 }
