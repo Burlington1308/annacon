@@ -44,11 +44,26 @@ nav {
 }
 
 .logo {
-    height: 100%; 
+    height: 95%; 
+    border-radius: 50%;
+    animation: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .logo img {
     height: inherit;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 nav .mobile {
