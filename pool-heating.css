@@ -1,0 +1,55 @@
+.hero {
+    background: url('images/heater.jpg')no-repeat center center/cover;
+}
+.main, .brands {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5vh;
+}
+
+.main h1, .brands h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.main h3 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.main p, .brands p {
+    text-align: center;
+    line-height: 1.6;
+}
+.main ul {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.main ul li {
+    line-height: 1.6;
+}
+
+.floater {
+    width: 100%;
+    background: #333;
+    padding: 3vh;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-radius: 2vh;
+    color: #fff;
+}
+
+.floater h2 {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
